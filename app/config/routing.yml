@@ -1,0 +1,12 @@
+
+_frontend:
+    resource: routes/frontend.yaml
+
+_admin:
+    resource: routes/admin.yaml
+    prefix:   /admin
+
+
+_api:
+    resource: routes/api.yaml
+    prefix:   /api
